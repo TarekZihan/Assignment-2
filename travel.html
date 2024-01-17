@@ -7,154 +7,192 @@
     <title>Travel Guide Website</title>
     <link rel="stylesheet" href="travel.css">
 
+
 </head>
 
 <body>
     <div class="main-container">
+        <!-- Menu section -->
+        <nav class="menu-container">
+            <div class="menu-header">
+                <img src="./Images/Group 40071 (2).png" alt="">
+                <h1>Take A <span class="">Trip</span> </h1>
+            </div>
+            <div class="menu-item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Package</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <img class="hidden" src="/Images/download.png" alt="">
+            </div>
+        </nav>
 
 
         <!-- banner-part -->
-        <div class="banner-container">
-            <div class="banner-box">
+        <div class="banner-box">
 
-                <h1 class="banner-box-title">Explore Your Travel</h1>
-                <p class="banner-box-description">The trip takes you to Cox's Bazar, boasting the longest natural sea
-                    beach in the world. Here, you enjoy the sun, sea, and sand, experiencing the laid-back coastal life.
+            <h1 class="banner-box-title">Explore Your Travel</h1>
+            <p class="banner-box-description">The trip takes you to Cox's Bazar, boasting the longest natural sea
+                beach in the world. Here, you enjoy the sun, sea, and sand, experiencing the laid-back coastal life.
+            </p>
+
+            <form class="banner-form">
+                <input type="text" placeholder="Where go">
+                <select class="banner-select">
+                    <option value="">When</option>
+                    <option value="">How</option>
+                    <option value="">Where</option>
+                </select>
+                <select class="banner-select">
+                    <option value="">Select Type</option>
+                    <option value="">Plane</option>
+                    <option value="">Bus</option>
+                </select>
+                <button class="btn-primary">
+                    <img src="./Images/Frame.svg" alt="">Find Now
+                </button>
+            </form>
+        </div>
+
+        <!-- Popular section -->
+        <!-- Popular section -->
+
+        <div class="popular-container">
+            <div class="popular-box">
+                <h1 class="popular-box-header">Our Popular Tours</h1>
+                <p class="popular-box-description">
+                    Cox's Bazar offers a picturesque coastal landscape, with opportunities for beach activities,
+                    water sports, and cultural experiences.
                 </p>
-
-                <form class="banner-form">
-                    <input type="text" placeholder="Where go">
-                    <select class="banner-select">
-                        <option value="">When</option>
-                        <option value="">How</option>
-                        <option value="">Where</option>
-                    </select>
-                    <select class="banner-select">
-                        <option value="">Select Type</option>
-                        <option value="">Plane</option>
-                        <option value="">Bus</option>
-                    </select>
-                    <button class="btn-primary">
-                        <img src="./Images/Frame.svg" alt="">Find Now
-                    </button>
-                </form>
+                <li class="popular-box-description">Inani Beach: A quieter and less crowded beach compared to Cox's
+                    Bazar, offering a serene
+                    environment for relaxation.</li>
+                <li class="popular-box-description">Adinath Temple: A Hindu temple on a hill in Maheshkhali Island,
+                    offering panoramic views of the
+                    surrounding areas.</li>
+                <li class="popular-box-description">Laboni Beach: Another popular beach in Cox's Bazar, known for
+                    its vibrant atmosphere and various
+                    beachside activities.</li>
+                <p class="popular-box-description">Cox's Bazar is not only about beaches; it also provides an
+                    opportunity to experience the local
+                    culture, try traditional Bangladeshi cuisine, and engage in various water-based activities.</p>
+                <button class="btn-secondary">
+                    Read More
+                </button>
             </div>
-
-            <!-- Popular section -->
-            <!-- Popular section -->
-
-            <div class="popular-container">
-                <div class="popular-box">
-                    <h1 class="popular-box-header">Our Popular Tours</h1>
-                    <p class="popular-box-description">
-                        Cox's Bazar offers a picturesque coastal landscape, with opportunities for beach activities,
-                        water sports, and cultural experiences.
-                    </p>
-                    <li class="popular-box-description">Inani Beach: A quieter and less crowded beach compared to Cox's
-                        Bazar, offering a serene
-                        environment for relaxation.</li>
-                    <li class="popular-box-description">Adinath Temple: A Hindu temple on a hill in Maheshkhali Island,
-                        offering panoramic views of the
-                        surrounding areas.</li>
-                    <li class="popular-box-description">Laboni Beach: Another popular beach in Cox's Bazar, known for
-                        its vibrant atmosphere and various
-                        beachside activities.</li>
-                    <p class="popular-box-description">Cox's Bazar is not only about beaches; it also provides an
-                        opportunity to experience the local
-                        culture, try traditional Bangladeshi cuisine, and engage in various water-based activities.</p>
-                    <button class="btn-secondary">
-                        Read More
-                    </button>
-                </div>
-                <div class="popular-img">
-                    <img src="./Images/Rectangle 9.png" alt="">
-                </div>
+            <div class="popular-img">
+                <img src="./Images/Rectangle 9.png" alt="">
             </div>
-            <!-- Destination section -->
-            <div class="destination-section-container">
-                <h1 class="destination-section-title">Choose Your Destination</h1>
-                <p class="destination-section-description">
-                    Certainly! Choosing a destination depends on various factors, including your interests, budget,
-                    preferred type of activities, and the time of year you plan to travel.
+        </div>
+        <!-- Destination section -->
+        <div class="destination-section-container">
+            <h1 class="destination-section-title">Choose Your Destination</h1>
+            <p class="destination-section-description">
+                Certainly! Choosing a destination depends on various factors, including your interests, budget,
+                preferred type of activities, and the time of year you plan to travel.
 
-                </p>
-                <div class="destination-section-item">
-                    <div class="destination-section-box1">
+            </p>
+            <div class="destination-section-item">
+                <div class="destination-section-box1">
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 5.png" alt="">
+                        <p>Dhaka</p>
+                    </div>
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 8.png" alt="">
+                        <p>Cox's bazar</p>
                     </div>
-                    <div class="destination-section-box2">
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 6.png" alt="">
+                        <p>Sylhet</p>
+                    </div>
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 7.png" alt="">
+                        <p>Chattogrram</p>
+                    </div>
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 9.png" alt="">
+                        <p>Rajshahi</p>
                     </div>
-                    <div class="destination-section-box3">
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 11.png" alt="">
+                        <p>Gajipur</p>
+                    </div>
+                    <div class=" destination_image_wraper">
                         <img src="Images/Rectangle 10.png" alt="">
+                        <p>Khulna</p>
                     </div>
+
                 </div>
+
+
             </div>
-            <!-- why choose section -->
+        </div>
+        <!-- why choose section -->
 
-            <div class="why-choose-container">
-                <div>
-                    <h2 class="why-choose-title">Why Choose Us</h2>
-                    <p class="why-choose-description">Alternatively, you can seek feedback from web design professionals
-                        or online communities dedicated to website development. Providing more details or specific
-                        questions will enable me to offer more targeted assistance.</p>
-                </div>
-                <div class="why-choose-card-double">
-                    <div class="why-choose-card-box">
-                        <div class="why-choose-card">
-                            <img src="Images/hotel 1.svg" alt="">
-                            <h2 class="why-choose-card-text">La Meridien</h2>
-                            <p class="why-choose-card-description">However, it's important to note that there isn't a
-                                specific "La Meridien" hotel; instead, you may find Le Méridien properties in various
-                                cities worldwide.</p>
-                        </div>
-                    </div>
-                    <div class="why-choose-card-box1">
-                        <div class="why-choose-card">
-                            <img src="Images/map 1.svg" alt="">
-                            <h2 class="why-choose-card-text">World Class Service</h2>
-                            <p class="why-choose-card-description">However, it's important to note that there isn't a
-                                specific "La Meridien" hotel; instead, you may find Le Méridien properties in various
-                                cities worldwide.</p>
-                        </div>
-                    </div>
+        <div class="why-choose-container">
 
-                </div>
-                <div class="why-choose-card-box2">
+            <h2 class="why-choose-title">Why Choose Us</h2>
+            <p class="why-choose-description">Alternatively, you can seek feedback from web design professionals
+                or online communities dedicated to website development. Providing more details or specific
+                questions will enable me to offer more targeted assistance.</p>
+
+            <div class="why-choose-card-double">
+                <div class="why-choose-card-box">
                     <div class="why-choose-card">
-                        <img src="Images/price-tag 1.svg" alt="">
-                        <h2 class="why-choose-card-text">Best Price Guarantee</h2>
+                        <img src="Images/hotel 1.svg" alt="">
+                        <h2 class="why-choose-card-text">La Meridien</h2>
                         <p class="why-choose-card-description">However, it's important to note that there isn't a
-                            specific "La Meridien" hotel; instead, you may find Le Méridien properties in various cities
-                            worldwide.</p>
+                            specific "La Meridien" hotel; instead, you may find Le Méridien properties in various
+                            cities worldwide.</p>
                     </div>
+                </div>
+                <div class="why-choose-card-box1">
+                    <div class="why-choose-card">
+                        <img src="Images/map 1.svg" alt="">
+                        <h2 class="why-choose-card-text">World Class Service</h2>
+                        <p class="why-choose-card-description">However, it's important to note that there isn't a
+                            specific "La Meridien" hotel; instead, you may find Le Méridien properties in various
+                            cities worldwide.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="why-choose-card-box2">
+                <div class="why-choose-card">
+                    <img src="Images/price-tag 1.svg" alt="">
+                    <h2 class="why-choose-card-text">Best Price Guarantee</h2>
+                    <p class="why-choose-card-description">However, it's important to note that there isn't a
+                        specific "La Meridien" hotel; instead, you may find Le Méridien properties in various cities
+                        worldwide.</p>
                 </div>
             </div>
+        </div>
 
-            <!-- news-letter section -->
-            <div class="news-letter-container">
-                <div class="news-letter-box">
-                    <h2 class="news-letter-title">
-                        Newsletter
-                    </h2>
-                    <p class="news-letter-text">
-                        It seems like you might be interested in creating or receiving a newsletter.
-                    </p>
-                    <hr>
-                    <div class="news-letter-search">
-                        <input type="text" placeholder="Enter your name">
-                        <input type="email" placeholder="Enter your email">
-                    </div>
-                    <button class="submit">Subscribe</button>
+        <!-- news-letter section -->
+        <div class="news-letter-container">
+            <div class="news-letter-box">
+                <h2 class="news-letter-title">
+                    Newsletter
+                </h2>
+                <p class="news-letter-text">
+                    It seems like you might be interested in creating or receiving a newsletter.
+                </p>
+                <hr>
+                <div class="news-letter-search">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <button class="submit">Subscribe</button>
 
-                </div>
-                <div class="news-letter-img">
-                    <img src="./Images/Rectangle 8 (1).png" alt="">
-                </div>
+            </div>
+            <div class="news-letter-img">
+                <img src="./Images/Rectangle 8 (1).png" alt="">
             </div>
         </div>
     </div>
